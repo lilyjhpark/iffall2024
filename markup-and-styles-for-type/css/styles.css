@@ -13,6 +13,10 @@ html {
     font-family: "vista-slab", serif;
   }
 
+  body {
+    margin: 10%;
+  }
+  
 p{
     font-size: 13pt;
     line-height: 1.4;
@@ -34,9 +38,17 @@ small {
 aside {
     text-align: center;
 }
-
 cite {
+    text-align: right;
+    display: block;
+
+}
+article {
     margin: 6rem 0;
+}
+
+section {
+    margin: 2.5rem 0;
 }
 
 a {
